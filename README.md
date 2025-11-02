@@ -9,6 +9,7 @@ This Machine Learning project predicted NO2 concentration level at San Francisco
 
 # Outcomes:
 <img width="790" height="900" alt="image" src="https://github.com/user-attachments/assets/3e2080ce-112b-4f9c-bd41-d81de3911b78" />
+
 # Findings:
 1. The plot ranks features by their mean absolute SHAP value, i.e., their average contribution (magnitude) to the model’s output across all observations. Higher SHAP values = greater influence on predicted NO₂ concentration.
 2. The distance to the nearest highway is the most influential factor. Locations closer to highways are likely exposed to higher vehicular emissions, leading to increased NO₂ concentrations.
@@ -24,6 +25,7 @@ This Machine Learning project predicted NO2 concentration level at San Francisco
 
 # Beeswarm Plot: 
 <img width="776" height="900" alt="image" src="https://github.com/user-attachments/assets/ef38dfde-77b9-414a-9d39-e7c135f4920d" />
+
 # Findings: 
 1. Traffic proximity dominates NO₂ prediction.
     Being near highways, motorways, or primary/secondary roads substantially increases NO₂ levels.
